@@ -1,4 +1,4 @@
-# AI Data Center Atlas
+# AI Data Center Map
 
 Vercel-ready React + Vite + Leaflet interactive U.S. AI data center map.
 
@@ -15,6 +15,7 @@ vite.config.js
 src/App.jsx
 src/main.jsx
 src/styles.css
+src/data.js
 ```
 
 4. Go to Vercel → Add New Project → Import your GitHub repo.
@@ -30,4 +31,4 @@ npm run build
 
 ## Notes
 
-The map uses OpenStreetMap tiles and estimated wattage values.
+The map uses CARTO / OpenStreetMap tiles, clustering via `supercluster`, and estimated operational metrics where site-level reporting is limited.
